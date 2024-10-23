@@ -26,6 +26,7 @@ set mouse=a             " Enable mouse control in all modes
 set ttymouse=xterm2     " Resolve mouse mode problem in tmux
 set laststatus=2        " Show status line
 set cursorline          " Highlight current line
+set relativenumber
 if has("syntax")
   syntax on
 endif
