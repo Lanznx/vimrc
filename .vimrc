@@ -13,6 +13,15 @@
 set nocompatible
 
 
+"""""""""""""""""""""""""""""
+" Leader
+"""""""""""""""""""""""""""""
+let mapleader = " "
+nmap <Leader><Leader>w <Plug>(easymotion-w)
+nmap <Leader><Leader>b <Plug>(easymotion-b)
+nmap <Leader><Leader>j <Plug>(easymotion-j)
+nmap <Leader><Leader>k <Plug>(easymotion-k)
+
 """"""""""""""""""""""""""""""
 " Interface
 """"""""""""""""""""""""""""""
@@ -56,6 +65,9 @@ set wildmode=list:longest,full  " Allow full list and auto-completion in wildmen
 " vim-plug
 """""""""""""""""""""""""""""
 call plug#begin('~/.vim/plugged')
+Plug 'easymotion/vim-easymotion'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle', 'tag': '6.10.16' }
 Plug 'Xuyuanp/nerdtree-git-plugin'

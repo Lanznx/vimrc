@@ -171,6 +171,7 @@ Press `Ctrl-G` to toggle NERTree's explorer
 
 ### Toggle taglist
 
+first install universal-ctags with brew or something else
 Press `F8` to toggle tagbar
 
 ### Toggle Indent Guides
