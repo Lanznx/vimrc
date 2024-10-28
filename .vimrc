@@ -17,10 +17,10 @@ set nocompatible
 " Leader
 """""""""""""""""""""""""""""
 let mapleader = " "
-nmap <Leader><Leader>w <Plug>(easymotion-w)
-nmap <Leader><Leader>b <Plug>(easymotion-b)
-nmap <Leader><Leader>j <Plug>(easymotion-j)
-nmap <Leader><Leader>k <Plug>(easymotion-k)
+nmap <Leader>w <Plug>(easymotion-w)
+nmap <Leader>b <Plug>(easymotion-b)
+nmap <Leader>j <Plug>(easymotion-j)
+nmap <Leader>k <Plug>(easymotion-k)
 
 """"""""""""""""""""""""""""""
 " Interface
