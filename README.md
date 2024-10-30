@@ -111,7 +111,7 @@ I recently used the following terminals as well:
 Third-party repositories are included in this repository. Remember to use `--recursive` to pull them all!
 
 ```
-git clone --recursive https://gitlab.com/archerindigo/vimrc.git
+git clone --recursive https://github.com/lanznx/vimrc.git
 ```
 
 2. Replace your ~/.vimrc and ~/.vim
