@@ -22,6 +22,15 @@ nmap <Leader>b <Plug>(easymotion-b)
 nmap <Leader>j <Plug>(easymotion-j)
 nmap <Leader>k <Plug>(easymotion-k)
 
+"set jump windows"
+nmap <C-h> <C-w>h
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-l> <C-w>l
+
+" setup mapping to call :LazyGit
+nnoremap <leader><leader>g :!lazygit<CR>
+
 """"""""""""""""""""""""""""""
 " Interface
 """"""""""""""""""""""""""""""
@@ -57,7 +66,6 @@ filetype plugin indent on       " Enable specific formatting rules support for c
 set hlsearch                    " Highlight search results
 set incsearch                   " Instantly search while typing
 set ignorecase                  " Case-insensitive search
-set smartcase                   " Switch to case-sensitive search when keywords contain uppercase
 set wildmenu                    " Enable wildmenu while entering tab in command mode
 set wildmode=list:longest,full  " Allow full list and auto-completion in wildmenu
 
@@ -65,6 +73,7 @@ set wildmode=list:longest,full  " Allow full list and auto-completion in wildmen
 " vim-plug
 """""""""""""""""""""""""""""
 call plug#begin('~/.vim/plugged')
+Plug 'kdheepak/lazygit.nvim'
 Plug 'easymotion/vim-easymotion'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'

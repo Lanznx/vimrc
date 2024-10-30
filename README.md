@@ -178,6 +178,11 @@ Press `F8` to toggle tagbar
 
 Press `<Leader> + i + g` to toggle indent guides. `<Leader>` maybe the `\` key on your keyboard. You may also enable it by defult by uncommenting the line `let g:indent_guides_enable_on_vim_startup=1`
 
+
+press s key for opening to the right, i for opening to the bottom, enter for opening it in the current split
+
+
+
 ### Copy and Paste to System Clipboard
 
 You can select text in visual mode and press `Ctrl-C` to copy or `Ctrl-X` to cut it into system clipboard. To paste the text, you can press `Ctrl-P` in normal mode or `Ctrl-V` in insert mode.
